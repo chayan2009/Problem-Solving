@@ -12,7 +12,7 @@ fun main() {
 fun SumOfTwoNumbers(str: IntArray, target: Int): List<IntArray> {
     var result=mutableListOf<IntArray>()
     for (i in str.indices) {
-        println("i: ${str[i]}") // Access the actual element at index i
+        println("i: ${str[i]}") 
         for (j in i + 1 until str.size) {
             println("j: ${str[j]}") // Access the actual element at index j
             if (str[i] + str[j] == target) {
